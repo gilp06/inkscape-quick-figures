@@ -8,8 +8,7 @@ This is my first vscode extension, so a lot of the functionality is currently ve
 
 ## Features
 
-- Creating new figures straight from vscode.
-    - On creation the extension will open it in Inkscape
+- Creating new figures straight from vscode and opening them in inkscape.
 - Updating all figures in workspace and generating pdf-tex files
 - Automatically regenerating pdf-tex files whenever *.svgs are updated.
 
@@ -36,5 +35,6 @@ Currently there is no configuration as to where the templates are located and wh
 - Global/external template folder
 - General UX improvements
 - Switch to Node.js File System completely rather than use some of `vscode.workspace.fs`
+- Opening *.svgs when ctrl-clicking pdf-tex files. 
 
 
